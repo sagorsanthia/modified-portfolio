@@ -3,11 +3,6 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins' serif;
-}
 .flexible {
   display: flex;
 }
@@ -48,4 +43,11 @@ p {
 .top-section {
   background: url(images/top-banner.png);
   background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.dream-section {
+  background: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: 101% 200px;
+  margin-bottom: 150px;
 }
