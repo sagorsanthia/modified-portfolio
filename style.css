@@ -24,7 +24,7 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 36px;
 }
 p {
   color: gray;
@@ -50,4 +50,27 @@ p {
   background-repeat: no-repeat;
   background-position: 101% 200px;
   margin-bottom: 150px;
+}
+.exp-section {
+  margin-bottom: 150px;
+  
+}
+.border-1 {
+  box-shadow: 10px 10px 50px gray;
+  padding: 30px 5px 100px 30px;
+  border-image: linear-gradient(rgb(230, 15, 18), orange);
+  border-image-slice: 1;
+  border-left: 10px solid;
+  border-radius: 10px;
+}
+.border-2 {
+  box-shadow: 10px 10px 50px gray;
+  padding: 30px 5px 150px 30px;
+  border-image: linear-gradient(rgb(18, 225, 63), navy);
+  border-image-slice: 1;
+  border-left: 10px solid;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
 }
