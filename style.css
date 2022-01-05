@@ -53,23 +53,28 @@ p {
 }
 .exp-section {
   margin-bottom: 150px;
-  
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0 150px;
+  padding-left: 60px;
 }
 .border-1 {
   box-shadow: 10px 10px 50px gray;
   padding: 30px 5px 100px 30px;
   border-image: linear-gradient(rgb(230, 15, 18), orange);
   border-image-slice: 1;
-  border-left: 10px solid;
+  border-left: 7px solid;
   border-radius: 10px;
+  margin-right: 10%;
 }
 .border-2 {
   box-shadow: 10px 10px 50px gray;
   padding: 30px 5px 150px 30px;
   border-image: linear-gradient(rgb(18, 225, 63), navy);
   border-image-slice: 1;
-  border-left: 10px solid;
+  border-left: 7px solid;
   border-radius: 10px;
+  margin-right: 10%;
 }
 footer {
   text-align: center;
